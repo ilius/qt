@@ -7,6 +7,7 @@ import (
 	"github.com/therecipe/qt/gui"
 	"github.com/therecipe/qt/internal"
 	"github.com/therecipe/qt/interop/gow"
+	"log"
 	"unsafe"
 )
 
@@ -58414,9 +58415,21 @@ func (ptr *QWidget) ActionEventDefault(event gui.QActionEvent_ITF) {
 }
 
 func (ptr *QWidget) Actions() []*QAction {
-
-	return internal.CallLocalFunction([]interface{}{"", uintptr(ptr.Pointer()), ptr.QObject_PTR().ClassNameInternalF(), "Actions"}).([]*QAction)
+	actionsIface := internal.CallLocalFunction([]interface{}{"", uintptr(ptr.Pointer()), ptr.QObject_PTR().ClassNameInternalF(), "Actions"})
+	switch actionsTyped := actionsIface.(type) {
+	case []*QAction:
+		return actionsTyped
+	case []interface{}:
+		actions := make([]*QAction, len(actionsTyped))
+		for index, actionIface := range actionsTyped {
+			actions[index] = actionIface.(*QAction)
+		}
+		return actions
+	}
+	log.Printf("unexpected type in QWidget.Actions(): %#v", actionsIface)
+	return []*QAction{}
 }
+
 
 func (ptr *QWidget) ActivateWindow() {
 
