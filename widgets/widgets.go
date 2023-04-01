@@ -11120,8 +11120,6 @@ const (
 )
 
 // QDialogButtonBox::ButtonLayout
-//
-//go:generate stringer -type=QDialogButtonBox__ButtonLayout
 type QDialogButtonBox__ButtonLayout int64
 
 var (
@@ -11129,7 +11127,7 @@ var (
 	QDialogButtonBox__MacLayout     QDialogButtonBox__ButtonLayout = QDialogButtonBox__ButtonLayout(1)
 	QDialogButtonBox__KdeLayout     QDialogButtonBox__ButtonLayout = QDialogButtonBox__ButtonLayout(2)
 	QDialogButtonBox__GnomeLayout   QDialogButtonBox__ButtonLayout = QDialogButtonBox__ButtonLayout(3)
-	QDialogButtonBox__AndroidLayout QDialogButtonBox__ButtonLayout = QDialogButtonBox__ButtonLayout(0)
+	QDialogButtonBox__AndroidLayout QDialogButtonBox__ButtonLayout = QDialogButtonBox__GnomeLayout + 2
 )
 
 func NewQDialogButtonBox(parent QWidget_ITF) *QDialogButtonBox {
