@@ -3,9 +3,9 @@ package shared
 import (
 	"fmt"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/webchannel"
-	"github.com/therecipe/qt/websockets"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/webchannel"
+	"github.com/ilius/qt/websockets"
 )
 
 type WebSocketTransport struct {

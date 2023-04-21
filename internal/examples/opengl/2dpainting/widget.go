@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt/gui"
+	"github.com/ilius/qt/widgets"
 )
 
 type Widget struct {

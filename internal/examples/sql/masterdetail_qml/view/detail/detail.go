@@ -3,11 +3,11 @@
 package detail
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/gui"
+	"github.com/ilius/qt/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/ilius/qt/internal/examples/sql/masterdetail_qml/controller"
 )
 
 type detailController struct {

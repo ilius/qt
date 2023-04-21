@@ -3,9 +3,9 @@
 package gui
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
-	"github.com/therecipe/qt/interop/gow"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/internal"
+	"github.com/ilius/qt/interop/gow"
 	"unsafe"
 )
 

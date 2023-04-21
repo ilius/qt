@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/sql"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/sql"
 )
 
 type EditableSqlModel struct {

@@ -5,12 +5,12 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/qml"
-	"github.com/therecipe/qt/quickcontrols2"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/gui"
+	"github.com/ilius/qt/qml"
+	"github.com/ilius/qt/quickcontrols2"
 
-	_ "github.com/therecipe/qt/internal/examples/3rdparty/qml-material/demo/icons"
+	_ "github.com/ilius/qt/internal/examples/3rdparty/qml-material/demo/icons"
 )
 
 func main() {

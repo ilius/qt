@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ilius/qt/internal/utils"
 )
 
 func flutter(target string, path string) {

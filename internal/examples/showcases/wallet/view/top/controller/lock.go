@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ilius/qt/core"
 
-	"github.com/therecipe/qt/internal/examples/showcases/wallet/controller"
-	dcontroller "github.com/therecipe/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
+	"github.com/ilius/qt/internal/examples/showcases/wallet/controller"
+	dcontroller "github.com/ilius/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
 )
 
 func init() {

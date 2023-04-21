@@ -1,6 +1,6 @@
 package swift
 
-import "github.com/therecipe/qt/interop"
+import "github.com/ilius/qt/interop"
 
 func init() {
 	interop.ReturnPointersAsStrings = true

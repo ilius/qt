@@ -3,9 +3,9 @@
 package datavisualization
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/internal"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/gui"
+	"github.com/ilius/qt/internal"
 	"unsafe"
 )
 

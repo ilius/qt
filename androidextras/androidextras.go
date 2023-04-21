@@ -3,8 +3,8 @@
 package androidextras
 
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
+	"github.com/ilius/qt"
+	"github.com/ilius/qt/core"
 	"strings"
 	"unsafe"
 )

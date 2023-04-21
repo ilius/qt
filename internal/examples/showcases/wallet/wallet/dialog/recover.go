@@ -1,9 +1,9 @@
 package dialog
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ilius/qt/core"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
+	_ "github.com/ilius/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
 )
 
 func init() { recoverTemplate_QmlRegisterType2("DialogTemplate", 1, 0, "RecoverTemplate") }

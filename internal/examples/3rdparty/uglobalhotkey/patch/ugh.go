@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/widgets"
 )
 
 type UGlobalHotkeys struct {

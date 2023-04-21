@@ -1,8 +1,8 @@
 package cpp
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/network"
 )
 
 type CachingNetworkAccessManager struct {

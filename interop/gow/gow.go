@@ -1,6 +1,6 @@
 package gow
 
-import "github.com/therecipe/qt/internal"
+import "github.com/ilius/qt/internal"
 
 var (
 	InitProcess = internal.InitProcess

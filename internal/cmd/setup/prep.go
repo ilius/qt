@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ilius/qt/internal/cmd"
+	"github.com/ilius/qt/internal/utils"
 )
 
 func Prep(target string) {

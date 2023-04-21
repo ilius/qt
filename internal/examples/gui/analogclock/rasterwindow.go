@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/gui"
 )
 
 type RasterWindow struct {

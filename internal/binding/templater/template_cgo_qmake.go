@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ilius/qt/internal/binding/parser"
+	"github.com/ilius/qt/internal/cmd"
+	"github.com/ilius/qt/internal/utils"
 )
 
 const (

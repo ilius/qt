@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/gui"
 
-	"github.com/therecipe/qt/internal/examples/showcases/wallet/controller"
+	"github.com/ilius/qt/internal/examples/showcases/wallet/controller"
 )
 
 type ProgressBarController struct {

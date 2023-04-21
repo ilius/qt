@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/cmd/deploy"
+	"github.com/ilius/qt/internal/cmd"
+	"github.com/ilius/qt/internal/cmd/deploy"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ilius/qt/internal/utils"
 )
 
 func main() {

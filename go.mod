@@ -1,4 +1,4 @@
-module github.com/therecipe/qt
+module github.com/ilius/qt
 
 go 1.20
 

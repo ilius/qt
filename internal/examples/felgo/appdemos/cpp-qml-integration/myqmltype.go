@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ilius/qt/core"
 )
 
 func init() { MyQMLType_QmlRegisterType2("com.yourcompany.xyz", 1, 0, "MyQMLType") }

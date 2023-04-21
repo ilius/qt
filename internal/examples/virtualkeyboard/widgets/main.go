@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt/widgets"
 )
 
 func main() {

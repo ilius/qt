@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/converter"
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ilius/qt/internal/binding/converter"
+	"github.com/ilius/qt/internal/binding/parser"
+	"github.com/ilius/qt/internal/utils"
 )
 
 func goEnum(e *parser.Enum, _ *parser.Value) string {

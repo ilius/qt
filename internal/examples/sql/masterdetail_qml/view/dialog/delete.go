@@ -5,10 +5,10 @@ package dialog
 import (
 	"fmt"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/ilius/qt/internal/examples/sql/masterdetail_qml/controller"
 )
 
 type deleteDialogController struct {

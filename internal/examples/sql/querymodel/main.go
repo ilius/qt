@@ -5,9 +5,9 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/sql"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/sql"
+	"github.com/ilius/qt/widgets"
 )
 
 func initializeModel(model *sql.QSqlQueryModel) {

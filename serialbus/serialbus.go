@@ -3,9 +3,9 @@
 package serialbus
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
-	"github.com/therecipe/qt/network"
+	"github.com/ilius/qt/core"
+	"github.com/ilius/qt/internal"
+	"github.com/ilius/qt/network"
 	"unsafe"
 )
 

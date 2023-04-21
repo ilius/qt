@@ -3,7 +3,7 @@ package main
 import (
 	"sort"
 
-	"github.com/therecipe/qt/core"
+	"github.com/ilius/qt/core"
 )
 
 type ChatServer struct {
